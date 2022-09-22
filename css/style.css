@@ -1,0 +1,130 @@
+body {
+    font-family: 'Red Hat Display', sans-serif;
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background-color: #D6E1FF;
+
+}
+
+
+.container {
+    width: 354px;
+    margin: 0 auto;
+}
+.content__box {
+    max-width: 450px;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    box-shadow: 0px 40px 40px -20px #0D30BD27;
+
+}
+.box__img {
+    max-width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.box__title {
+    font-size: 28px;
+    font-weight: 900;
+    line-height: 37px;
+    text-align: center;
+    color: #1F2E55;
+    margin: 45px 0 17px;
+
+}
+.box__subtitle {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    text-align: center;
+    color: #717FA6;
+
+}
+
+
+.plan {
+    display: flex;
+    align-items: center;
+    margin: 20px 0 32px;
+}
+.plan__icon {
+}
+.icon__img {
+
+}
+.plan__cost {
+    margin: 0px 69px 0 20px;
+}
+
+.plan__annual {
+    font-size: 16px;
+    font-weight: 900;
+    line-height: 21px;
+    color: #1F2E55;
+
+}
+.plan__price {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 21px;
+    color: #717FA6;
+
+
+}
+.plan__change {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 19px;
+    color: #382AE1;
+    transition: 0.3s color;
+
+}
+
+.plan__change:hover {
+    color: #766CF1;
+}
+
+
+.payment__btn {
+    font-size: 15px;
+    font-weight: 900;
+    line-height: 20px;
+    color: #FFFFFF;
+    width: 350px;
+    height: 50px;
+    border: 1px solid #382AE1;
+    background-color: #382AE1;
+    border-radius: 11px;
+    box-shadow: 0px 20px 20px 0px #382AE131;
+    transition: 0.3s background-color;
+    margin-bottom: 32px;
+}
+
+.payment__btn:hover {
+    background-color: #766CF1
+
+
+}
+
+
+.cancel  {
+    text-align: center;
+    margin-bottom: 48px;
+
+}
+
+.cancel__btn {
+    font-size: 15px;
+    font-weight: 900;
+    line-height: 20px;
+    color: #717FA6;
+    transition: 0.3s color;
+    text-decoration: none;
+    
+}
+
+.cancel__btn:hover {
+    color:#1F2E55
+}
